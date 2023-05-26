@@ -1,0 +1,43 @@
+.header{
+    background-image: url("/src/assets/images/cover.png");
+    background-size: cover;
+    /* background: linear-gradient(to top left, transparent, #FF4A22); */
+    /* background: linear-gradient(to top left, rgba(255, 255, 255, 0) 0.1%, #FF4A22 100%); */
+
+}
+
+.dishes{
+    background-image:
+    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(255, 74, 34, 0.6)),
+    url('/src/assets/images/back_cover.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.gallery-body{
+    right: -100%;
+    backdrop-filter: blur(10px);
+    transition: 1s;
+}
+
+
+.gallery-card:hover .gallery-body{
+    right: 0;
+}
+
+.footer-bg{
+    background: linear-gradient(to top, #F0A392, #ff6746);
+}
+
+.choose-us{
+    background-image:
+    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(255, 74, 34, 0.6)),
+    url('/src/assets/images/section-back.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.active-link{
+    color: #FF4A22;
+    text-decoration: underline;
+}
